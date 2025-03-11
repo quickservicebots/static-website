@@ -1,0 +1,46 @@
+body {
+  background: #003366; /* Teal */
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+}
+header {
+  background: #000000; /* Black */
+  border-bottom: 2px solid #ffd700; /* Gold */
+}
+.logo {
+  color: #ffd700;
+  text-shadow: 0 0 5px #ffd700;
+}
+nav ul li a {
+  color: #ffd700;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+.cta.primary {
+  background: #ffd700;
+  color: #000;
+}
+.cta.secondary {
+  border: 2px solid #ffd700;
+  color: #ffd700;
+}
+.content {
+  background: rgba(0, 51, 102, 0.9); /* Teal overlay */
+}
+form input,
+form textarea {
+  background: #000;
+  color: #fff;
+  border: 1px solid #ffd700;
+}
+footer {
+  background: #000000;
+  border-top: 2px solid #ffd700;
+}
+.social-links a {
+  color: #ffd700;
+}
+.social-links a:hover {
+  color: #fff;
+}

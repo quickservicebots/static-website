@@ -1,0 +1,46 @@
+body {
+  background: #1a1a3d; /* Dark blue */
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+}
+header {
+  background: #1a1a3d;
+  border-bottom: 2px solid #00ff00; /* Neon green */
+}
+.logo {
+  color: #ff00ff; /* Neon pink */
+  text-shadow: 0 0 10px #ff00ff;
+}
+nav ul li a {
+  color: #00ff00;
+}
+nav ul li a:hover {
+  color: #ff00ff;
+}
+.cta.primary {
+  background: #ff00ff;
+  color: #fff;
+}
+.cta.secondary {
+  border: 2px solid #00ff00;
+  color: #00ff00;
+}
+.content {
+  background: rgba(26, 26, 61, 0.9); /* Dark blue overlay */
+}
+form input,
+form textarea {
+  background: #333;
+  color: #fff;
+  border: 1px solid #00ff00;
+}
+footer {
+  background: #1a1a3d;
+  border-top: 2px solid #00ff00;
+}
+.social-links a {
+  color: #00ff00;
+}
+.social-links a:hover {
+  color: #ff00ff;
+}
