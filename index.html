@@ -51,10 +51,7 @@
             <p>Automating QSRs and Ghost Kitchens with OptiChef 1</p>
             <p class="tagline">Fast Food, Smarter Bots</p>
             <div class="cta-buttons">
-                <a href="#contact" class="cta primary">Request a Pilot</a>
-                <a href="https://drive.google.com/file/d/1R7PYtJg9oR1NcC6ROlWmCx9hOq7nmLbd/view?usp=sharing"
-                    target="_blank" class="cta secondary">View Pitch
-                    Deck</a>
+                <a href="#contact" class="cta primary">Request Info</a>
             </div>
         </div>
     </section>
@@ -112,8 +109,11 @@
     <section id="contact" class="content">
         <div class="container">
             <h2>Contact Us</h2>
-            <form id="contact-form" action="mailto:quickservicebots@gmail.com?subject=Inquiry" method="post"
-                enctype="text/plain">
+            <form id="contact-form" action="mailto: quickservicebots@gmail.com?subject=Inquiry"
+                enctype="multipart/form-data" method="POST">
+                <div style="display: none; visibility: hidden;">
+                    <input type="text" autocomplete="off" name="standard-type" id="standard-type">
+                </div>
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Your Name" required>
